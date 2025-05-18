@@ -12,22 +12,32 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav ms-auto">
           {/* Starters Dropdown */}
-          <li className="nav-item dropdown " >
-            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
+          <li className="nav-item dropdown">
+            <button
+              className="nav-link dropdown-toggle text-white btn btn-link"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Starters
-            </a>
+            </button>
             <ul className="dropdown-menu bg-black">
-              <li><Link className="dropdown-item text-white " to="/menu/starters/all">All</Link></li>
-              <li><Link className="dropdown-item text-white " to="/menu/starters/veg">Veg</Link></li>
+              <li><Link className="dropdown-item text-white" to="/menu/starters/all">All</Link></li>
+              <li><Link className="dropdown-item text-white" to="/menu/starters/veg">Veg</Link></li>
               <li><Link className="dropdown-item text-white" to="/menu/starters/non-veg">Non-Veg</Link></li>
             </ul>
           </li>
 
           {/* Main Courses Dropdown */}
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
+            <button
+              className="nav-link dropdown-toggle text-white btn btn-link"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Main Courses
-            </a>
+            </button>
             <ul className="dropdown-menu bg-black">
               <li><Link className="dropdown-item text-white" to="/menu/main/all">All</Link></li>
               <li><Link className="dropdown-item text-white" to="/menu/main/veg">Veg</Link></li>
@@ -37,16 +47,20 @@ export default function Navbar() {
 
           {/* Chinese Dropdown */}
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
+            <button
+              className="nav-link dropdown-toggle text-white btn btn-link"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Chinese
-            </a>
+            </button>
             <ul className="dropdown-menu bg-black">
               <li><Link className="dropdown-item text-white" to="/menu/chinese/all">All</Link></li>
               <li><Link className="dropdown-item text-white" to="/menu/chinese/veg">Veg</Link></li>
               <li><Link className="dropdown-item text-white" to="/menu/chinese/non-veg">Non-Veg</Link></li>
             </ul>
           </li>
-
         </ul>
       </div>
     </nav>
