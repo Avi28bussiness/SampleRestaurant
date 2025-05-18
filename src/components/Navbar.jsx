@@ -13,7 +13,7 @@ export default function Navbar() {
         <ul className="navbar-nav ms-auto">
           {/* Starters Dropdown */}
           <li className="nav-item dropdown " >
-            <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
               Starters
             </a>
             <ul className="dropdown-menu bg-black">
@@ -25,7 +25,7 @@ export default function Navbar() {
 
           {/* Main Courses Dropdown */}
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
               Main Courses
             </a>
             <ul className="dropdown-menu bg-black">
@@ -37,7 +37,7 @@ export default function Navbar() {
 
           {/* Chinese Dropdown */}
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+            <a className="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown">
               Chinese
             </a>
             <ul className="dropdown-menu bg-black">
