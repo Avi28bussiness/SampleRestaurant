@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropdown-item:hover {
+  background-color: #0d6efd !important; /* Bootstrap primary blue */
+  color: #fff !important;
+}
